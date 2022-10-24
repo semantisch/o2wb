@@ -11,6 +11,8 @@ O2WB, a novel tool that enables ontology import into Wikibase.
 
 3. Run importGUI.py
 
+![](screenshotGUI.png)
+
 ## Command-line option
 
 3. Specify the bot name and password in config.json
