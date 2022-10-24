@@ -1,10 +1,12 @@
 antlr4-python3-runtime==4.9.3
+appdirs==1.4.3
 apturl==0.5.2
 attrs==21.4.0
 Automat==20.2.0
 backoff==1.11.1
 base45==0.4.3
 bcrypt==3.1.7
+beautifulsoup4==4.8.2
 blinker==1.4
 Brlapi==0.7.0
 cbor2==5.4.2.post1
@@ -32,6 +34,7 @@ Flask==2.0.2
 Flask-Cors==3.0.10
 future==0.18.2
 gpg===1.13.1-unknown
+html5lib==1.0.1
 httplib2==0.14.0
 hyperlink==21.0.0
 idna==2.8
@@ -60,6 +63,7 @@ netifaces==0.10.4
 numpy==1.21.4
 oauthlib==3.1.1
 olefile==0.46
+packaging==20.3
 pandas==1.3.4
 paramiko==2.6.0
 parsel==1.6.0
@@ -105,6 +109,7 @@ requests==2.26.0
 requests-file==1.5.1
 requests-oauthlib==1.3.0
 requests-unixsocket==0.2.0
+scour==0.37
 Scrapy==2.6.1
 SecretStorage==2.3.1
 service-identity==21.1.0
@@ -112,9 +117,11 @@ shexer==2.0.0
 ShExJSG==0.7.1
 simplejson==3.17.6
 six==1.14.0
+soupsieve==1.9.5
 sparqlslurper==0.4.1
 SPARQLWrapper==1.8.5
 systemd-python==234
+tk==0.1.0
 tldextract==3.2.1
 tqdm==4.62.3
 Twisted==22.4.0
@@ -128,6 +135,7 @@ usb-creator==0.3.7
 vboxapi==1.0
 w3lib==1.22.0
 wadllib==1.3.3
+webencodings==0.5.1
 Werkzeug==2.0.2
 wikibase-api==0.1.2
 wikibaseintegrator==0.11.1
