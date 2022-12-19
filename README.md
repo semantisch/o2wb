@@ -15,7 +15,7 @@ or
 1. Alternatively, you can clone this repository to your machine
 2. Navigate to the root directory and install the required packages from requirements.txt
 
-## Setting up O2WB
+## Set up O2WB
 
 3. Create a new Wikibase bot with permissions related to page editing:
 
