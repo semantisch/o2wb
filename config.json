@@ -1,7 +1,7 @@
 {
-  "apiUrl": "http://localhost/w/api.php",
-  "loginCredentials": {
-    "botUsername": "",
-    "botPassword": ""
-  }
+  "MEDIAWIKI_API_URL":"http://localhost:80/w/api.php",
+  "SPARQL_ENDPOINT_URL":"http://localhost:8834/proxy/wdqs/bigdata/namespace/wdq/sparql",
+  "WIKIBASE_URL":"http://localhost:80",
+  "USER":"Admin@Bot1",
+  "PASSWORD":"change-to-your-password"
 }
