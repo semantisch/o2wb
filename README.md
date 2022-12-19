@@ -8,7 +8,7 @@ O2WB, a novel tool that enables ontology import into Wikibase.
 
 pip3 install o2wb
 
-## or
+or
 
 ## Clone the git repository
 
