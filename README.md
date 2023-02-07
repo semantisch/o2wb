@@ -2,7 +2,7 @@
 
 
 
-# O2WB: A tool for ontology reuse in Wikibase [![License: CC0-1.0 Universal](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/release/python-300/) ![PyPI - Downloads](https://img.shields.io/pypi/dd/o2wb) 
+# O2WB: A tool for ontology reuse in Wikibase <br /> [![License: CC0-1.0 Universal](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/release/python-300/) ![PyPI - Downloads](https://img.shields.io/pypi/dd/o2wb) 
 
 O2WB is a Python command line tool that enables ontology reuse in Wikibase, a popular data publishing platform. The tool aligns the Wikibase data model with RDF and facilitates the import and export of RDF Schema and OWL ontologies within Wikibase. This will help to tighten the connection between existing linked data resources and Wikibase instances.
 ## Features
