@@ -44,14 +44,14 @@ The next two sections guide through the process of fulfilling these requirements
 
 
     
-## Set up a Wikibase Suite instance
+## Setting up a Wikibase Suite instance
 
 The full Wikibase Suite required for O2WB to work consists of the MediaWiki base platform with Wikibase extensions, the MySQL (MariaDB) database and the Elasticsearch, QuickStatements and Wikidata query services (a Blazegraph SPARQL endpoint).
 
 There are two main approaches to setting up a Wikibase Suite instance, a [Docker-based setup (extended install)](https://www.mediawiki.org/wiki/Wikibase/Docker) and a [full manual setup](https://www.mediawiki.org/wiki/Wikibase/Suite). Follow the corresponding links for the respective installation manuals. In the Docker-based setup, the components of the Wikibase Suite are automatically set up in Docker containers, making the installation and configuration process much easier. In the full manual setup, each component must be installed separately. We recommend using the Docker-based setup.
 
 
-## Create a bot account in Wikibase
+## Creating a bot account in Wikibase
 
 In order to use O2WB, you need to set up a Wikibase bot with the necessary permissions. Follow these steps:
 
