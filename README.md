@@ -1,19 +1,8 @@
-
-
-## Badges****
-
-[![License: CC0-1.0 Universal](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)
-](http://creativecommons.org/publicdomain/zero/1.0/)
-
-![PyPI - Downloads](https://img.shields.io/pypi/dd/o2wb) 
-
-[![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/release/python-300/)
-
-<img src="o2wb.png" width="400" height="300">
+<img src="o2wb.png" width="500" height="500">
 
 
 
-# O2WB: A tool for ontology reuse in Wikibase
+# O2WB: A tool for ontology reuse in Wikibase [![License: CC0-1.0 Universal](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/release/python-300/) ![PyPI - Downloads](https://img.shields.io/pypi/dd/o2wb) 
 
 O2WB is a Python command line tool that enables ontology reuse in Wikibase, a popular data publishing platform. The tool aligns the Wikibase data model with RDF and facilitates the import and export of RDF Schema and OWL ontologies within Wikibase. This will help to tighten the connection between existing linked data resources and Wikibase instances.
 ## Features
@@ -192,15 +181,3 @@ O2WB is licensed under the [CC0 1.0 Universal](https://creativecommons.org/publi
 - [Distributed Knowledge Graphs COST Action](https://cost-dkg.eu)
 - [Wikibase Stakeholder Group](https://wbstakeholder.group)
 - [Diátaxis: A systematic framework for technical documentation authoring](https://diataxis.fr)
-
-## Create a bot account in Wikibase
-
-In order to use O2WB, you need to set up a Wikibase bot with the necessary permissions. Follow these steps:
-
-Create a new Wikibase bot with the following permissions related to page editing:
-- High-volume editing
-- Edit existing pages
-- Create, edit, and move pages
-
-
-Now that you have set up the Wikibase bot account, you are ready to start using O2WB to import and export ontologies.
