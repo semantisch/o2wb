@@ -1,6 +1,6 @@
 ## Badges
 
-[![License: CC0-1.0 Universal](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/release/python-300/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/o2wb)]()
+[![License: CC0-1.0 Universal](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![Python 3.1](https://img.shields.io/badge/python-3.1-blue.svg)](https://www.python.org/downloads/release/python-300/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/o2wb)]()
 
 <img src="o2wb.png" width="500" height="500">
 
