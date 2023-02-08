@@ -160,7 +160,7 @@ To export the FOAF ontology in Turtle format, run:
 To also generate a mapping, run:
 
 ```bash
-  o2wb-exp --file "pathTo/foafExported.ttl" --name "FOAF Ontology"  --mapping
+  o2wb-exp --file "pathTo/foafExported.ttl" --name "FOAF Ontology"  --mapping "pathTo/mapping.csv"
 ```
 
 
