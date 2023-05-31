@@ -23,13 +23,13 @@
 #    Object Properties
 #################################################################
 
-###  http://url_removed_for_double_blind_review/typeOf
-o2wb:typeOf a rdf:Property,
+###  http://url_removed_for_double_blind_review/type
+o2wb:type a rdf:Property,
               owl:ObjectProperty;
               rdfs:comment "rdfs:type equivalent to be used with o2wb:Ontology and o2wb:BlankNode";
               rdfs:domain wikibase:Item;
               rdfs:isDefinedBy o2wb:;
-              rdfs:label "typeOf";
+              rdfs:label "type";
               rdfs:range rdfs:Class,
                           owl:Class;
               vs:term_status "stable".
