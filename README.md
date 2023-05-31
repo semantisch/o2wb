@@ -174,12 +174,5 @@ O2WB is licensed under the [CC0 1.0 Universal](https://creativecommons.org/publi
 
 ## Authors
 
-- [Daniil Dobriy](https://github.com/semantisch) - (Institute for Data, Process and Knowledge Management - WU Vienna)
-- [Axel Polleres](https://github.com/AxelPolleres) - (Institute for Data, Process and Knowledge Management - WU Vienna)
-
-*[Institute for Data, Process and Knowledge Management](https://www.wu.ac.at/en/dpkm/)*, *[Vienna University of Economics and Busioness](https://www.wu.ac.at)*.
-
 ## Acknowledgements
-- [Distributed Knowledge Graphs COST Action](https://cost-dkg.eu)
-- [Wikibase Stakeholder Group](https://wbstakeholder.group)
-- [Diátaxis: A systematic framework for technical documentation authoring](https://diataxis.fr)
+
