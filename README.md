@@ -1,6 +1,6 @@
 ## Badges
 
-[![License: CC0-1.0 Universal](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![Python 3.1](https://img.shields.io/badge/python-3.1-blue.svg)](https://www.python.org/downloads/release/python-300/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/o2wb)]()
+[![License: CC0-1.0 Universal](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/) [![Python 3.1](https://img.shields.io/badge/python-3.1-blue.svg)](https://www.python.org/downloads/release/python-300/)
 
 <img src="o2wb.png" width="500" height="500">
 
@@ -28,21 +28,13 @@ O2WB is a Python command line tool that enables ontology reuse in Wikibase, a po
 
 ## Installation
 
-O2WB can be installed using pip:
-
-```bash
-  python3 -m pip install o2wb
-```
-
-Alternatively, you can clone this repository to your machine and install the required packages from requirements.txt.
+O2WB can be installed by cloning this repository to your machine and installing the required packages from requirements.txt.
 
 Make sure the following requirements are fulfilled:
 - [The full Wikibase Suite is installed.](#Set-up-a-Wikibase-Suite-instance)
 - [A bot account with appropriate editing rights is created.](#Create-a-bot-account-in-Wikibase)
 
 The next two sections guide through the process of fulfilling these requirements:
-
-
     
 ## Setting up a Wikibase Suite instance
 
