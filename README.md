@@ -153,6 +153,8 @@ O2WB is licensed under the [CC0 1.0 Universal](https://creativecommons.org/publi
 
 
 ## Authors
+    
+This is an anonymized version of the repository. We also offer a non-anonymized possibility to install the tool via PyPI for the final version.
 
 ## Acknowledgements
 
