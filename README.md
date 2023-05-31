@@ -70,12 +70,6 @@ Additionally, you can create a csv mapping file that documents the mapping of th
 To run the import process, open a terminal or command prompt and run the following command:
 
 ```bash
-  o2wb-imp {--url <URL of your ontology> | --file <path to ontology file>} --name <ontology name> [--recursive <Depth of recursive imports>] [--mapping <path to export the mapping scheme>]
-```
-
-If you have cloned the repository, you can run the following command:
-
-```bash
   python import.py {--url <URL of your ontology> | --file <path to ontology file>} --name <ontology name> [--recursive <Depth of recursive imports>] [--mapping <path to export the mapping scheme>]
 ```
 
@@ -111,12 +105,6 @@ Analogously to the o2wb-imp command, you can also use the --mapping option to cr
 To run the import process, open a terminal or command prompt and run the following command:
 
 ```bash
-  o2wb-exp --file <path to ontology file> --name <ontology name> [--mapping <path to export the mapping scheme>]
-```
-
-If you have cloned the repository, you can run the following command:
-
-```bash
   python export.py --file <path to ontology file> --name <ontology name> [--mapping <path to export the mapping scheme>]
 ```
 
@@ -128,31 +116,31 @@ Note that the export process can take a while depending on the size of the ontol
 To import the DCAT ontology from a URL, run:
 
 ```bash
-  o2wb-imp --url "https://www.w3.org/TR/vocab-dcat-2/" --name "DCAT Ontology" 
+  python import.py --url "https://www.w3.org/TR/vocab-dcat-2/" --name "DCAT Ontology" 
 ```
 
 To also recursively import one level of owl:imports ontologies, run:
 
 ```bash
-  o2wb-imp --url "https://www.w3.org/TR/vocab-dcat-2/" --name "DCAT Ontology" --recursive 1
+  python import.py --url "https://www.w3.org/TR/vocab-dcat-2/" --name "DCAT Ontology" --recursive 1
 ```
 
 To import the FOAF ontology from a file and create a mapping file, run:
 
 ```bash
-  o2wb-imp --file "pathTo/foaf.owl" --name "FOAF Ontology"  --mapping "pathTo/mapping.csv"
+  python import.py --file "pathTo/foaf.owl" --name "FOAF Ontology"  --mapping "pathTo/mapping.csv"
 ```
 
 To export the FOAF ontology in Turtle format, run:
 
 ```bash
-  o2wb-exp --file "pathTo/foafExported.ttl" --name "FOAF Ontology" 
+  python export.py --file "pathTo/foafExported.ttl" --name "FOAF Ontology" 
 ```
 
 To also generate a mapping, run:
 
 ```bash
-  o2wb-exp --file "pathTo/foafExported.ttl" --name "FOAF Ontology"  --mapping "pathTo/mapping.csv"
+  python export.py --file "pathTo/foafExported.ttl" --name "FOAF Ontology"  --mapping "pathTo/mapping.csv"
 ```
 
 
