@@ -17,7 +17,7 @@
                                       <http://purl.org/dc/terms/language> "en" ;
                                       <http://purl.org/dc/elements/1.1/title> "O2WB Ontology"@en ;
                                       <http://purl.org/dc/elements/1.1/description> """The O2WB ontology describes ontologies imported into Wikibase."""@en ;
-                                      owl:versionInfo "0.0.1 - first version"@en .
+                                      owl:versionInfo "0.0.2"@en .
 
 #################################################################
 #    Object Properties
@@ -56,6 +56,17 @@ o2wb:representsIRI a rdf:Property,
                               o2wb:IRIRepresentation;
                   rdfs:isDefinedBy o2wb:;
                   rdfs:label "representsIRI";
+                  rdfs:range xsd:string;
+                  vs:term_status "stable".
+
+###  http://url_removed_for_double_blind_review/hasComplexAxiom
+o2wb:hasComplexAxiom a rdf:Property,
+                  owl:DatatypeProperty;
+                  rdfs:comment "Used to import Manchester syntax axioms.";
+                  rdfs:domain wikibase:Entity,
+                              o2wb:Ontology;
+                  rdfs:isDefinedBy o2wb:;
+                  rdfs:label "hasComplexAxiom";
                   rdfs:range xsd:string;
                   vs:term_status "stable".
 
